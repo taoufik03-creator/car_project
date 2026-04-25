@@ -27,6 +27,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["carproject-production-cd22.up.railway.app"]
 
+CSRF_TRUSTED_ORIGINS=["https://carproject-production-cd22.up.railway.app"]
+
 
 # Application definition
 
